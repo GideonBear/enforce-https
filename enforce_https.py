@@ -16,6 +16,7 @@ def main() -> int:
         new_content = ''
         for line in content.splitlines(keepends=True):
             if 'allow-http' in line:
+                new_content += line
                 continue
 
             new_line = line.replace('http://', 'https://')
