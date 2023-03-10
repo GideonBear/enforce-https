@@ -13,7 +13,7 @@ def main() -> int:
     retval = 0
     for file in args.files:
         content = file.read_text()
-        for line in content:
+        for line in content.splitlines():
             if 'allow-http' in line:
                 continue
 
