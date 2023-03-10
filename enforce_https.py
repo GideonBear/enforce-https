@@ -13,10 +13,14 @@ def main() -> int:
     retval = 0
     for file in args.files:
         content = file.read_text()
-        new_content = content.replace('http://', 'https://')
-        if new_content != content:
-            file.write_text(new_content)
-            retval = 1
+        for line in content:
+            if 'allow-http' in line:
+                continue
+
+            new_line = line.replace('http://', 'https://')
+            if new_line != line:
+                file.write_text(new_line)
+                retval = 1
 
     return retval
 
