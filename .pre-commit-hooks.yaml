@@ -1,5 +1,5 @@
 -   id: enforce-https
-    name: enforce-https
+    name: enforce https
     description: A pre-commit hook to enforce https instead of http
     entry: enforce-https
     language: python
