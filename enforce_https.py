@@ -19,7 +19,7 @@ def main() -> int:
                 new_content += line
                 continue
 
-            new_line = line.replace('http://', 'https://')
+            new_line = line.replace('http://', 'https://')  # allow-http
             new_content += new_line
 
         if new_content != content:
