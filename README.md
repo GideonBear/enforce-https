@@ -20,7 +20,7 @@ Add this to your `.pre-commit-config.yaml`:
 - data = requests.get('http://api.example.com').json
 + data = requests.get('https://api.example.com').json
 ```
-### Using `allow-http` to suppress enforce-https:
+### Using `allow-http` to suppress enforce-https
 ```py
 protocol_sensitive_operation('http://example.com')  # allow-http
 ```
