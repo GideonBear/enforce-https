@@ -34,4 +34,5 @@ protocol_sensitive_operation('http://example.com')  # allow-http
 from library import function
 
 function('http://example.com') 
+```
 ````
