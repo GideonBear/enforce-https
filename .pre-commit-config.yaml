@@ -2,7 +2,7 @@ minimum_pre_commit_version: '3.0.3'
 
 repos:
 -   repo: https://github.com/GideonBear/pre-commit-hooks
-    rev: v2.5
+    rev: v3.0
     hooks:
     -   id: general
     -   id: python
