@@ -33,6 +33,6 @@ protocol_sensitive_operation('http://example.com')  # allow-http
 ```py
 from library import function
 
-function('http://example.com') 
+function('http://example.com')
 ```
 ````
