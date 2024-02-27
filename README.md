@@ -5,7 +5,7 @@ A pre-commit hook to enforce https instead of http
 Add this to your `.pre-commit-config.yaml`:
 ```yaml
 -   repo: https://github.com/GideonBear/pre-commit-enforce-https
-    rev: v1.0.0
+    rev: v1.3.0
     hooks:
     -   id: enforce-https
 ```
