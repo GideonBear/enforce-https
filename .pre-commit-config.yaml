@@ -3,7 +3,7 @@ minimum_pre_commit_version: '3.0.3'
 # TODO: different yaml formatting?
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.4.0
+    rev: v4.5.0
     hooks:
     -   id: check-ast
     -   id: double-quote-string-fixer  # TODO: possibly use ruff or another tool for better formatting like flake8-quotes
@@ -27,7 +27,7 @@ repos:
     -   id: trailing-whitespace
 
 -   repo: https://github.com/pre-commit/mirrors-autopep8
-    rev: v2.0.2
+    rev: v2.0.4
     hooks:
     -   id: autopep8
         args:
@@ -36,7 +36,7 @@ repos:
         -   E12,E13,E501,E71,E72,W5,W6
 
 -   repo: https://github.com/pycqa/isort
-    rev: '5.12.0'
+    rev: '5.13.2'
     hooks:
     -   id: isort
         args:
@@ -50,7 +50,7 @@ repos:
         -   --known-local-folder=$PACKAGES
 
 -   repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.1.1
+    rev: v1.8.0
     hooks:
     -   id: mypy
         pass_filenames: false
@@ -100,7 +100,7 @@ repos:
 #        args: [--py36-plus]
 
 -   repo: https://github.com/asottile/pyupgrade
-    rev: v3.3.1
+    rev: v3.15.1
     hooks:
     -   id: pyupgrade
         args: [--py37-plus]
