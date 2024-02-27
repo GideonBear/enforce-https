@@ -1,4 +1,6 @@
 # enforce-https
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/GideonBear/enforce-https/main.svg)](https://results.pre-commit.ci/latest/github/GideonBear/enforce-https/main)
+
 A pre-commit hook to enforce https instead of http
 
 ## Usage
