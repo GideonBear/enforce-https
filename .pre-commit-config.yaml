@@ -3,7 +3,7 @@ minimum_pre_commit_version: '3.0.3'
 # TODO: different yaml formatting?
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0
+    rev: v4.6.0
     hooks:
     -   id: check-ast
     -   id: double-quote-string-fixer  # TODO: possibly use ruff or another tool for better formatting like flake8-quotes
