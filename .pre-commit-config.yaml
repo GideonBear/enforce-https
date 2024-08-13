@@ -86,7 +86,7 @@ repos:
         -   --strict-equality
         -   --implicit-optional
         additional_dependencies:  # Everything I'll ever need
-        -   types-all
+        #-   types-all  # broken?
         -   types-setuptools
         -   types-playsound
         -   selenium
