@@ -36,7 +36,7 @@ repos:
         -   E12,E13,E501,E71,E72,W5,W6
 
 -   repo: https://github.com/pycqa/isort
-    rev: '5.13.2'
+    rev: '6.0.0'
     hooks:
     -   id: isort
         args:
