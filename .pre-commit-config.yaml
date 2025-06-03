@@ -49,10 +49,10 @@ repos:
         -   --use-parentheses
         -   --known-local-folder=$PACKAGES
 
--   repo: https://github.com/pre-commit/mirrors-mypy
+-   repo: https://github.com/pre-commit/mirrors-test
     rev: v1.16.0
     hooks:
-    -   id: mypy
+    -   id: test
         pass_filenames: false
         args:  # Removes default `--ignore-missing-imports`
         -   .
