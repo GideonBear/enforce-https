@@ -107,3 +107,7 @@ repos:
     rev: v1.3.0
     hooks:
     -   id: enforce-https
+
+
+ci:
+  autoupdate_commit_msg: "chore(pre-commit): autoupdate"
